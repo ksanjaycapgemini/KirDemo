@@ -7,6 +7,7 @@ public class MyThread extends Thread{
 		for(int i=1;i<10;i++){
 			
 			System.out.println("CurrentThread = "+MyThread.currentThread().getName());
+			System.out.println("CurrentThread = "+MyThread.currentThread().getName());
 		}
 	}
 
